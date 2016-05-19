@@ -1,0 +1,57 @@
+html{
+  font-size: 1em;
+}
+
+.wrapper{
+  position: relative;
+  display: block;
+}
+
+body{
+  background: #3e4eb8;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/***********************HEADER************************
+******************************************************/
+.header_wrapper{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10em;
+  font-weight: 500;
+}
+
+i{
+  padding: 2%;
+}
+
+
+/***********************MAIN CONTENT******************
+******************************************************/
+
+.card{
+  width: 200px;
+  height: 200px;
+  background: #7884cd;
+  border-radius: 5%;
+  display: block;
+  transition: background 1s, transform 1s;
+}
+
+input{
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+
+input:checked + .card{
+  background: #7884cd;
+  transform: rotateY(180deg);
+}

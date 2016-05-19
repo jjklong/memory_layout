@@ -67,7 +67,7 @@ input{
 }
 
 p{
-  padding: 1em 3em 1em 3em;
+  padding: 2em 15em 2em 15em;
   font-size: 1em;
 }
 
@@ -79,7 +79,9 @@ p:hover{
 /**************  EASY  BOX  ****************/
 
 .ebox {
+  margin: 1em;
   border: solid white 5px;
+  transform: perspective(60em) rotateY(-45deg);
 }
 
 .ebox:hover{
@@ -87,7 +89,18 @@ p:hover{
   background: white;
 }
 
+/**************  HARD  BOX  ****************/
 
+.hbox{
+  margin: 1em;
+  border: solid white 5px;
+  transform: perspective(60em) rotateY(45deg);
+}
+
+.hbox:hover{
+  transition-duration: .5s;
+  background: white;
+}
 
 
 /**************  FIRST BOX ATTEMPT  ****************/
