@@ -1,0 +1,68 @@
+html{
+  font-size: 1em;
+}
+
+.wrapper{
+  position: relative;
+  display: block;
+}
+
+body{
+  background: #338ea2;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/***********************HEADER************************
+******************************************************/
+.header_wrapper{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 2em;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10em;
+  font-weight: 500;
+}
+
+i{
+  padding: 2%;
+}
+
+/*******************MAIN CONTENT************************
+********************************************************/
+section{
+  text-align: center;
+  text-decoration: none
+}
+
+.section_wrapper{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 1em 4em 1em 4em;
+}
+
+h2{
+  font-size: 4em;
+  padding: 5%;
+}
+
+/**************  EASY  /  HARD  ****************/
+#easy{
+  text-decoration: none;
+}
+
+#hard{
+  text-decoration: none;
+}
+
+h4{
+  font-size: 2em;
+  color: white;
+  border: solid white;
+  border-width: 5px;
+}
