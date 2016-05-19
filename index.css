@@ -51,18 +51,62 @@ h2{
   padding: 5%;
 }
 
-/**************  EASY  /  HARD  ****************/
-#easy{
+/**************  EASY  &  HARD  ****************/
+
+.easyorhard_wrapper{
+  display: inline-block;
+}
+
+.easyorhard_wrapper a{
   text-decoration: none;
+  color: white;
+}
+
+input{
+  display: none;
+}
+
+p{
+  padding: 1em 3em 1em 3em;
+  font-size: 1em;
+}
+
+p:hover{
+  transition-duration: .5s;
+  color: #338ea2;
+}
+
+/**************  EASY  BOX  ****************/
+
+.ebox {
+  border: solid white 5px;
+}
+
+.ebox:hover{
+  transition-duration: .5s;
+  background: white;
+}
+
+
+
+
+/**************  FIRST BOX ATTEMPT  ****************/
+/*a#easy{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+
 }
 
 #hard{
   text-decoration: none;
-}
+}*/
 
-h4{
+/*h4{
   font-size: 2em;
   color: white;
   border: solid white;
   border-width: 5px;
-}
+  line-height: 1em;
+  padding: .5em;
+}*/
