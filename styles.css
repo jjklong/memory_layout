@@ -2,16 +2,22 @@ html{
   font-size: 1em;
 }
 
-.wrapper{
-  position: relative;
-  display: block;
+body{
+
 }
 
-body{
+#wrapper{
   background: #3e4eb8;
   color: white;
   font-family: 'Orbitron', sans-serif;
+  padding-top: 1.5em;
 }
+
+/*section{
+  display: inline-block;
+}*/
+
+
 
 /***********************HEADER************************
 ******************************************************/
@@ -32,6 +38,7 @@ h1{
   padding: 1em;
 }
 
+/*HEARTS*/
 ul{
   display: inline-flex;
     float: left;
@@ -41,11 +48,13 @@ li{
   padding: 1%;
 }
 
+/*TIMER*/
 .time {
   float: right;
   font-family: sans-serif;
   font-size: 1em;
 }
+
 
 
 /***********************MAIN CONTENT******************
@@ -76,21 +85,9 @@ input:checked + .card {
   transform: rotateY(180deg);
 }
 
-
-
-
-/**************************TEST1*****************************/
-input{
-  display: none;
+#gameboard{
+  padding: 2em;
+  text-align: center;
 }
-
-input:checked #iheart {
-  display: block;
-}
-
-#iheart{
-  display: none;
-}
-
 
 /*********ICONS**********/
