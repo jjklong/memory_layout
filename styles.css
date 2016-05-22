@@ -6,6 +6,7 @@ body{
   font-size: 1em;
   padding: 0;
   margin: 0;
+  background: #3e4eb8;
   text-align: center;
   font-family: 'Orbitron', sans-serif;
 }
@@ -17,9 +18,11 @@ body{
   padding-top: 1.5em;
 }
 
-/*section{
-  display: inline-block;
-}*/
+section{
+  width: 100%;
+  min-width: 62.1em;
+  margin: 1em;
+}
 
 
 
@@ -65,8 +68,9 @@ li{
 ******************************************************/
 
 .card{
-  width: 200px;
-  height: 200px;
+  width: 10.12em;
+  height: 10.12em;
+  margin: -0.1em;
   background: #7884cd;
   border-right: 0;
   border-bottom: 0;
@@ -80,8 +84,8 @@ li{
 
 .icon_box{
   position: absolute;
-  margin-top: 4.9em;
-  margin-left: -1.2em;
+  margin-top: 3.7em;
+  margin-left: -1.1em;
   display: inline-block;
   opacity: 0;
   border-radius: 15px;
@@ -89,15 +93,14 @@ li{
 }
 
 input{
-  width: 200px;
-  height: 200px;
+  width: 10.12em;
+  height: 10.12em;
   display: none;
 }
 
 input:checked .card {
   background: #7884cd;
   transform: rotateY(180deg);
-  opacity: 1;
   border-radius: 15px;
 }
 
@@ -109,7 +112,8 @@ input:checked + .icon_box {
 }
 
 #gameboard{
-  padding: 2em;
+  width: 62.1em;
+  margin: 1em auto;
   text-align: center;
 }
 
